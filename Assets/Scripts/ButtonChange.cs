@@ -24,15 +24,12 @@ public class ButtonChange : MonoBehaviour, IVirtualButtonEventHandler {
 	
     public void OnButtonPressed(VirtualButtonAbstractBehaviour vb)
     {
-        if (vb.gameObject.name == "VirtualButtonUL")
-        {
+        if (vb.VirtualButtonName == "VirtualButtonUL")
             ulObj.SetActive(!ulObj.activeSelf);
-        }
-
-        if (vb.gameObject.name == "VirtualButtonUR")
-        {
+        else if (vb.VirtualButtonName == "VirtualButtonUR")
             urOgj.SetActive(!urOgj.activeSelf);
-        }
+
+        Debug.Log("Pressed");
     }
 
     public void OnButtonReleased(VirtualButtonAbstractBehaviour vb)
