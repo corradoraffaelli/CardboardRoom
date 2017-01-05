@@ -1,0 +1,35 @@
+# 
+# 
+
+newmtl HumanFemaleBody
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Human_Female_Body_D.tga
+map_Bump Human_Female_Body_N.tga
+
+newmtl HumanFemaleHair
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd Human_Female_Hair_D.tga
+map_Bump Human_Female_Hair_N.tga
+
+newmtl HumanFemaleHead
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Human_Female_Head_D.tga
+map_Bump Human_Female_Head_N.tga
